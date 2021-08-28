@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>WebCam</title>
+</head>
+<body>
+    <h1 class="text-center color-primary bg-info text-white"> App WebCam </h1>
+    <div class="clearfix bg-white">
+        <td>
+            <tr> <h2 class=" col-md-6 float-md-end mb-3 ms-md-3">Aqui esta EL WebCam</h2>
+                <video id="video" width="640" height="480"  autoplay class="col-md-6 float-md-end mb-3 ms-md-3 rounded-bottom border border-success" alt="..."  >Aqui esta Tu WebCam</video>       
+                <button id="snap" class ="btn btn-info col-md-6 float-md-end mb-3 ms-md-3">Tomar Foto</button></tr>
+                <button id="guardar_foto" style="display:none;" class ="btn btn-info">guardar foto</button>
+                
+            <tr> <h2>tu foto se vera Aqui</h2>
+                <canvas id="canvas" width="640" height="480" class= "rounded-circle border border-success"></canvas></tr>
+        </td> 
+        
+    </div>  
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+<footer class="text-center bg-info"><h3 class="p-danger">Desarrollado por: <a href="https://www.emersonespinoza.com" class="link-primary">Emerson Espinoza</a></h3>     </footer>
+</html>
